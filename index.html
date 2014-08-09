@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<script src="http://platform.linkedin.com/in.js">
+api_key: app_key
+onLoad: onLinkedInLoad
+authorize: false
+</script>
+<script src="/js/jquery-1.11.1.min.js"></script>
+<script src="/js/core.js"></script>
+</head>
+
+<body>
+
+<h1 id="title">CV</h1>
+<img id="mypicture" src="" alt="my picture">
+
+<div id="main">
+<p id="name"></p>
+<p id="headline"></p>
+</div>
+
+<div id="middle">
+<p id="summary"></p>
+<p id="subheading">Current</p>
+<ul id="current"></ul>
+<p id="subheading">Past</p>
+<ul id="past"></ul>
+<p id="subheading">Skills</p>
+<p id="skills"></p>
+<p id="connections"></p>
+</div>
+
+<div id="footer">
+</div>
+
+
+
+
+
+<br>
+<script id="login" type="in/login">
+Hello, <?js= firstName ?> <?js= lastName ?>.
+</script>
+
+
+</body>
+</html>
